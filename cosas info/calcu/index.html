@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Cambia src por href -->
+    <title>Calcu</title>
+</head>
+<body>
+    
+    <label>ingresa los numeros a operar:</label>
+    <input type="number" id="num1">
+    <input type="number" id="num2">
+<div id="botones">
+    <button onclick="suma()">+</button>
+    <button onclick="resto()">-</button>
+    <button onclick="multiplicacion()">x</button>
+    <button onclick="division()">/</button>
+    <button onclick="RC()">v</button>
+    <button onclick="potenciacion()">></button>
+    <button onclick="CE()">C</button>
+</div>
+    <input type="text" id="output">
+
+    <h2 id="output"></h2>
+    <script src="scripts.js"></script>
+</body>
+</html>
